@@ -1,0 +1,176 @@
+/* Custome css by nexterweb */
+/* Year : 2020 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    display: inline;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+h2 {
+    color: #00a3c6;
+}
+
+h3 {
+    color: #00a3c6;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #a62ebd;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #a62ebd;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#x-content {
+    float: left;
+    width: 75%;
+}
+
+.x-to-top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #e5b4f147;
+    /* border-top : 1px solid transparent;
+    border-left  : 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 20px solid red; */
+}
+
+.x-to-top:hover {
+    background-color: crimson;
+}
+
+.x-btn-bulat {
+    padding: 30px;
+    height: 0;
+    width: 0;
+    
+    line-height: 30px;
+
+}
+
+.x-link-center {
+    text-align: center;
+    text-decoration: none;
+}
+
+.container-flex {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.x-box {
+    margin: 5px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.img-sosmed {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+
+.img-sosmed:hover {
+    width: 100%;
+    max-width: 55px;
+    height: auto;
+}
+
+.img-logo {
+    position: absolute;
+    width: 100px;
+    max-height: 50px;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.x-feature-image  {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.x-profile header, .x-profile section {
+    text-align: center;
+}
+
+.x-profile img {
+    width: 200px;
+}
+
+.x-card {
+    box-shadow: 0px 6px 8px 0 rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fffcfc;
+}
+
+.x-jumbotron {
+    font-size: 20px;
+    padding: 120px;
+    background-color: #bf54d4;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    #x-content,
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+}
