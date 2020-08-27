@@ -56,17 +56,17 @@ main {
 }
 
 h2 {
-    color: #00a3c6;
+    color: #0062a3;
 }
 
 h3 {
-    color: #00a3c6;
+    color: #0062a3;
 }
 
 footer {
     padding: 20px;
     color: white;
-    background-color: #a62ebd;
+    background-color: #4d92bf;
     text-align: center;
     font-weight: bold;
 }
@@ -131,67 +131,33 @@ footer {
     margin: 0 auto;
 }
 
-.x-to-top {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    background-color: #e5b4f147;
-    /* border-top : 1px solid transparent;
-    border-left  : 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 20px solid red; */
+a.back-to-top {
+	position: fixed;
+	z-index: 999;
+	right: 0.75rem;
+	bottom: 0.75rem;
+	display: none;
+	width: 2.625rem;
+	height: 2.625rem;
+	border-radius: 1.875rem;
+	background: #00bfd8 url("../img/up-arrow.png")no-repeat center 47%;
+	background-size: 1.125rem 1.125rem;
+	text-indent: -9999px;
 }
 
-.x-to-top:hover {
-    background-color: crimson;
+a:hover.back-to-top {
+	background-color: #00a7bd; 
 }
 
-.x-btn-bulat {
-    padding: 30px;
-    height: 0;
-    width: 0;
-    
-    line-height: 30px;
-
-}
-
-.x-link-center {
-    text-align: center;
-    text-decoration: none;
-}
-
-
-
-
-.img-sosmed {
-    width: 100%;
-    max-width: 50px;
-    height: auto;
-}
-
-.img-sosmed:hover {
-    width: 100%;
-    max-width: 55px;
-    height: auto;
-}
-
-
-
-.x-feature-image  {
+.content-image  {
     width: 100%;
     max-height: 300px;
     object-fit: cover;
     object-position: center;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 1000px) {
-    #x-content,
+    #content,
     aside{
         width: 100%;
         padding: 0;
